@@ -1,0 +1,25 @@
+{
+  "name": "$BRAND$",
+  "author": {
+    "name": "Nyaruka",
+    "email": "code@nyaruka.com",
+    "url": "http://$DOMAIN$"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "ticket_sidebar": "assets/iframe.html"
+    }
+  },
+  "parameters": [
+    {
+      "name": "token",
+      "type": "text",
+      "secure": true,
+      "required": true
+    }
+  ],
+  "version": "0.1",
+  "frameworkVersion": "2.0"
+}

@@ -1,0 +1,7 @@
+{
+    "channel_integrations": {
+        "$DOMAIN$": {
+            "manifest_url": "https://$DOMAIN$/tickets/types/zendesk/manifest.json"
+        }
+    }
+}
