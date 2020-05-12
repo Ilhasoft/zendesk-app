@@ -5,15 +5,25 @@
   <meta charset="utf-8">
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/combine/npm/@zendeskgarden/css-bedrock@7.0.21,npm/@zendeskgarden/css-utilities@4.3.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@zendeskgarden/css-buttons@7.0.19/dist/index.min.css">
 </head>
 
 <body>
-  <h2 class="u-semibold u-fs-xl">Guess we'll put stuff here.</h2>
+  <div id="app">
+    <template v-if="ready">
+      <template v-if="ourTicket">
+        <a class="c-btn u-mt-sm" v-bind:href="contactURL" target="_blank">Goto contact <i
+            class="fas fa-external-link-alt"></i></a>
+      </template>
+      <p v-else>This ticket didn't come from $BRAND$</p>
+    </template>
+    <p class="u-fs-sm" v-else>Loading...</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
-  <script>
-    var client = ZAFClient.init();
-    client.invoke('resize', { width: '100%', height: '200px' });
-  </script>
+  <script src="https://kit.fontawesome.com/1862b42be7.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
 </body>
 
 </html>
