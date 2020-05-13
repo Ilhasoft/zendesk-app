@@ -1,12 +1,6 @@
 {
     "app": {
         "name": "$BRAND$",
-        "short_description": "Allows Zendesk to manage tickets from $BRAND$",
-        "parameters": {
-            "token": {
-                "label": "Token",
-                "helpText": "Your $BRAND$ API token."
-            }
-        }
+        "short_description": "Allows Zendesk to manage tickets from $BRAND$"
     }
 }

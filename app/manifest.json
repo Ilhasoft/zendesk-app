@@ -12,14 +12,6 @@
       "ticket_sidebar": "assets/iframe.html"
     }
   },
-  "parameters": [
-    {
-      "name": "token",
-      "type": "text",
-      "secure": true,
-      "required": true
-    }
-  ],
   "version": "0.1",
   "frameworkVersion": "2.0"
 }
