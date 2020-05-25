@@ -4,3 +4,6 @@ A templated Zendesk app which can be uploaded as a pribate app in Zendesk Suppor
 
 ## Building
 
+```
+./build.py <brand>
+```
