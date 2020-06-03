@@ -1,6 +1,6 @@
 # Zendesk apps for RapidPro/TextIt
 
-A templated Zendesk app which can be uploaded as a pribate app in Zendesk Support
+A Zendesk app which provides integration support with Zendesk Support.
 
 ## Building
 

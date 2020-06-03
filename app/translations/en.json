@@ -1,6 +1,8 @@
 {
     "app": {
         "name": "$BRAND$",
-        "short_description": "Allows Zendesk to manage tickets from $BRAND$"
+        "short_description": "Allows Zendesk to manage tickets from $BRAND$",
+        "long_description": "$BRAND$ flows can open tickets through different services allowing human agents to take over communication with a contact. This app allows your $BRAND$ flows to open Zendesk Support tickets.",
+        "installation_instructions": "1. Login at [$BRAND$](https://$DOMAIN$) and go to your account settings page.\n2. From the menu at the top right, select *Add Ticketing Service*.\n3. Select *Zendesk* and enter your Zendesk subdomain.\n4. Click submit and follow the instructions provided."
     }
 }
