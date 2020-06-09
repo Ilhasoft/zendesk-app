@@ -3,7 +3,7 @@
   "author": {
     "name": "Nyaruka",
     "email": "code@nyaruka.com",
-    "url": "http://$DOMAIN$"
+    "url": "https://nyaruka.com"
   },
   "defaultLocale": "en",
   "private": false,
